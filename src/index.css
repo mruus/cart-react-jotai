@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@tailwind variants;
+:root {
+  background-color: #ffffff;
+}
+
+.bebas-font {
+  font-family: 'Bebas Neue', sans-serif;
+}
+
+.listNav .active-item {
+  color: blue;
+  font-weight: bold;
+}
+
+.listNav .list-item {
+  margin: 0 10px;
+}
+
+.listNav .list-item:first-child {
+  margin-left: 0;
+}
+
+.listNav .list-item:last-child {
+  margin-right: 0;
+}
+
+.listNav .list-item:hover {
+  color: blue;
+  font-weight: bold;
+  cursor: pointer;
+}
+/*# sourceMappingURL=index.css.map */
